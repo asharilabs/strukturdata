@@ -14,6 +14,9 @@ int main() {
 	cout << "uts: "; cin >> uts;
 	cout << "uas: "; cin >> uas;
 
+	// RUMUS NILAI AKHIR DIDEFINISIKAN SEBAGAI
+	// NA = 10% TM1 + 20% TM2 + 30% UTS + 40% UAS;
+	
 	nilaiAkhir =
 		((10 * tm1) / 100) +
 		((20 * tm2) / 100) +
