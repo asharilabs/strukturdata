@@ -10,13 +10,13 @@ int main() {
 	int _noRumah;
 	int anakke, saudara;
 
-	cout << "nama depan: "; cin >> _namaDepan;
-	cout << "nama belakang: "; cin >> _namaBelakang;
+	cout << "nama depan: "; getline(cin, _namaDepan);
+	cout << "nama belakang: "; getline(cin, _namaBelakang);
 	cout << "-------------" << endl;
-	cout << "nama jalan: "; cin >> _namaJalan;
-	cout << "no rumah (angkanya saja): "; cin >> _noRumah;
-	cout << "kelurahan: "; cin >> _kelurahan;
-	cout << "kota: "; cin >> _kota;
+	cout << "nama jalan: "; getline(cin, _namaJalan);
+	cout << "no rumah (angkanya saja): "; cin >> _noRumah; cin.ignore();
+	cout << "kelurahan: "; getline(cin, _kelurahan);
+	cout << "kota: "; getline(cin, _kota);
 	cout << "-------------" << endl;
 	cout << "anda adalah anak ke-: "; cin >> anakke;
 	cout << "dari berapa saudara: "; cin >> saudara;
