@@ -167,6 +167,22 @@ void Kasus8() {
     }
 }
 
+// kasus if yang tidak membutuhkan else
+// biasanya diperuntukkan untuk update nilai
+void Kasus9(){
+   
+    bool re = false;
+    int a;
+
+    cin >> a;
+
+    if (a == 5) {
+        re = true;
+    }
+
+    cout << re << endl;
+}
+
 int main()
 {
     cout << "Its about conditional statement" << endl;
